@@ -1,0 +1,170 @@
+<p align="center"><img src=".github/assets/meetube/icon.png" width="112" alt="MeeTube logo"></p>
+
+<h1 align="center">MeeTube</h1>
+
+<p align="center">
+<a href="https://github.com/yashoncode/meetube/releases/latest"><img src="https://img.shields.io/github/v/release/yashoncode/meetube?style=for-the-badge&label=Release&color=0e75b6" alt="Release"></a>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/yashoncode/meetube?style=for-the-badge&label=License&color=e8743b" alt="License"></a>
+<a href="https://github.com/yashoncode/meetube/releases"><img src="https://img.shields.io/github/downloads/yashoncode/meetube/total?style=for-the-badge&label=Downloads&color=4c1" alt="Downloads"></a>
+</p>
+
+**YouTube, reimagined. Different by design. Smooth by nature.** <br><br> No ads. No interruptions. Just a gorgeous liquid glass interface, synced lyrics, background playback, and one-tap downloads.<br><br> **A fresh way to experience YouTube.**<br><br>
+
+<p align="center"><img src=".github/assets/meetube/showcase.webp" width="100%" alt="MeeTube in seven cards: Watch (no ads, real dislikes), Synced lyrics (every line, right on time), Shorts (full screen, swipe ready), Channels (banner, Subscribe, Shorts tab), Liquid glass (a tab bar that floats), Search (YouTube's chips and filters) and Offline (save it in 4K)"></p>
+<p align="center"><img src=".github/assets/meetube/collage.webp" width="100%" alt="MeeTube on a phone, one screen at a time: the liquid glass tab bar switching tabs, the player with comments, synced lyrics, search and Shorts"></p>
+
+<p align="center"><a href="https://github.com/yashoncode/meetube/releases/latest"><b>⬇ Download the latest MeeTube</b></a></p>
+
+<p align="center"><img src=".github/assets/meetube/tv.webp" width="100%" alt="MeeTube TV: the glass sidebar over Home, the Sports page, the Shorts player and Subscriptions"></p>
+
+<p align="center"><a href="#meetube-tv"><b>📺 On a TV? Get MeeTube TV</b></a></p>
+
+> [!IMPORTANT]
+> MeeTube is not affiliated with, endorsed by, or connected to YouTube or Google in any way. Use it at your own discretion.
+
+## Features
+
+<table>
+<tr>
+<td colspan="2" valign="top">🎚️ <b>YouTube Equalizer</b><br>Tune how YouTube sounds with your phone's presets or your own bands, live as it plays. Hear the original audio instead of YouTube's compressed track, and turn the volume up to 200%.</td>
+</tr>
+<tr>
+<td width="50%" valign="top">🚫 <b>No ads, no sponsors</b><br>Ads are gone, and SponsorBlock skips sponsors, intros and "like and subscribe" reminders.</td>
+<td width="50%" valign="top">💎 <b>Liquid glass</b><br>Frosted, lens-bending glass on the tab bar, the player and Shorts, lit by GlowFlow: a glow that follows your tab, your progress and live channels.</td>
+</tr>
+<tr>
+<td valign="top">🎤 <b>Synced lyrics</b><br>Music videos get live, line-by-line lyrics. Pick your lyrics provider in one tap.</td>
+<td valign="top">🎧 <b>Background play and picture-in-picture</b><br>Lock the screen or switch apps and it keeps playing. Shorts float in their own portrait window.</td>
+</tr>
+<tr>
+<td valign="top">⬇️ <b>Offline downloads</b><br>Save videos up to 4K for a flight, a train or a day without data, in any folder you pick.</td>
+<td valign="top">📱 <b>Shorts done right</b><br>A clean full-screen player with glass like, comment and share buttons.</td>
+</tr>
+<tr>
+<td valign="top">🧑‍🎤 <b>Channels at a glance</b><br>Every card shows the channel's photo; tap it to open the channel with its banner, Subscribe button and Shorts tab.</td>
+<td valign="top">🔎 <b>YouTube's search filters</b><br>One-tap chips for Videos, Shorts, Live and Recently uploaded, plus the full filter dialog.</td>
+</tr>
+<tr>
+<td valign="top">👎 <b>Dislikes are back</b><br>Return YouTube Dislike shows the real count, and DeArrow swaps clickbait titles and thumbnails.</td>
+<td valign="top">💬 <b>Smooth comments and fullscreen</b><br>A glass comment bar that rises with the keyboard, and vertical videos go fullscreen upright.</td>
+</tr>
+<tr>
+<td valign="top">🎨 <b>Make it yours</b><br>Theme, app icon, glass, Home layout, tabs, double-tap skip time and the video menu, all on one page.</td>
+<td valign="top">🔄 <b>Always something new</b><br>Pull Home to refresh and get videos you haven't seen yet.</td>
+</tr>
+<tr>
+<td valign="top">🌏 <b>Speaks your language</b><br>English, Español, Română, Русский, 简体中文, 繁體中文 and العربية. Channel pages, view counts and dates follow your language too. <a href="TRANSLATING.md">Help translate</a>.</td>
+<td valign="top">🔐 <b>Your account, your subscriptions</b><br>Sign in with a code, or use it without an account. Cast to your TV.</td>
+</tr>
+</table>
+
+## Download
+
+Get the APK for your phone from [Releases](https://github.com/yashoncode/meetube/releases/latest):
+
+> **Coming from MeTube?** MeTube is now MeeTube, with a new app id, so it installs as a separate app. Install MeeTube, then uninstall the old MeTube.
+
+| Your device | File |
+|:--|:--|
+| Most phones (64-bit) | `MeeTube_<version>_arm64-v8a.apk` |
+| Older phones (32-bit) | `MeeTube_<version>_armeabi-v7a.apk` |
+| Not sure | `MeeTube_<version>_universal.apk` |
+
+Android 7.0 or later.
+
+Every release is built and signed in public by [GitHub Actions](https://github.com/yashoncode/meetube/actions/workflows/release.yml) from this repository's source, so you can see exactly how each APK was made.
+
+## MeeTube TV
+
+MeeTube's glass design on Android TV and Google TV, tuned its own way. It installs as its own app and updates itself.
+
+- **Glass Home.** A frosted sidebar with a focus pill that glides between MeeTube's icons.
+- **Glass player.** One frosted panel at the bottom: a seek bar with a glowing knob, and every button in a single row.
+- **Search that glows.** The screen's edges light up when Search opens, and your words glow as you type.
+
+Get it from [MeeTube TV 1.0.0](https://github.com/yashoncode/meetube/releases/tag/tv-v1.0.0) on Releases:
+
+| Your TV | File |
+|:--|:--|
+| Most TVs and boxes | [MeeTubeTV_1.0.0_armeabi-v7a.apk](https://github.com/yashoncode/meetube/releases/download/tv-v1.0.0/MeeTubeTV_1.0.0_armeabi-v7a.apk) |
+| Newer 64-bit boxes (Nvidia Shield, Google TV Streamer) | [MeeTubeTV_1.0.0_arm64-v8a.apk](https://github.com/yashoncode/meetube/releases/download/tv-v1.0.0/MeeTubeTV_1.0.0_arm64-v8a.apk) |
+| Not sure | [MeeTubeTV_1.0.0_universal.apk](https://github.com/yashoncode/meetube/releases/download/tv-v1.0.0/MeeTubeTV_1.0.0_universal.apk) |
+
+Android 4.2 or later. The code is on the [tv branch](https://github.com/yashoncode/meetube/tree/tv), with its own [changelog](https://github.com/yashoncode/meetube/blob/tv/CHANGELOG.md). Found a bug? [Open an issue](https://github.com/yashoncode/meetube/issues/new/choose) and pick MeeTube TV.
+
+## Build
+
+```
+./gradlew :mobile:assembleStmobileDebug     # debug, for testing
+./gradlew :mobile:assembleStmobileRelease   # release, signed with keystore.properties if present
+# APKs: mobile/build/outputs/renamed_apks/stmobile<Type>/MeeTube_<version>_<abi>.apk
+```
+
+Releases are made by pushing a `vX.Y.Z` tag: [release.yml](.github/workflows/release.yml) builds the signed APKs and publishes the GitHub release with its changelog. The glass is `mobile/src/stmobile/java/com/newtube/mobile/ui/common/GlassView.java`; the README showcase comes from `python tools/render_showcase.py`. Clone with `--recurse-submodules`. The backend lives in the `MediaServiceCore` and `SharedModules` submodules (MeeTube's own forks). Add `-PemulatorAbi` to run on an x86_64 emulator. Developer notes are in [CLAUDE.md](CLAUDE.md).
+
+## Support MeeTube
+
+MeeTube is free, has no ads and always will. I build it in my spare time because I love using it.
+If it makes your YouTube a little nicer and you'd like to say thanks, you can buy me a coffee.
+It's completely optional, and every coffee is truly appreciated. ☕
+
+<p align="center"><a href="https://buymeacoffee.com/yashwynth"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee"></a></p>
+
+In India? Scan to send a coffee over UPI (`yashwynth@ptaxis`):
+
+<p align="center"><img src=".github/assets/meetube/donation.jpeg" width="240" alt="UPI QR code for yashwynth@ptaxis"></p>
+
+A star on GitHub or sharing MeeTube with a friend helps just as much. Thank you for using it! ❤️
+
+## Credits
+
+Big thanks to [SmartTube](https://github.com/yuliskov/SmartTube) by [@yuliskov](https://github.com/yuliskov) and [NewTube](https://github.com/aleixrodriala/newtube) by [@aleixrodriala](https://github.com/aleixrodriala). Their open source work made MeeTube and MeeTube TV possible.
+
+And thank you to everyone who sent a fix, reported a bug or suggested an idea. MeeTube is better because of you:
+
+<p align="center">
+<a href="https://github.com/KrishnakantShedge" title="KrishnakantShedge"><img src="https://github.com/KrishnakantShedge.png?size=96" width="48" height="48" alt="KrishnakantShedge"></a>
+<a href="https://github.com/Ishaanj2007" title="Ishaanj2007"><img src="https://github.com/Ishaanj2007.png?size=96" width="48" height="48" alt="Ishaanj2007"></a>
+<a href="https://github.com/alibinarshad" title="alibinarshad"><img src="https://github.com/alibinarshad.png?size=96" width="48" height="48" alt="alibinarshad"></a>
+<a href="https://github.com/sushi1579" title="sushi1579"><img src="https://github.com/sushi1579.png?size=96" width="48" height="48" alt="sushi1579"></a>
+<a href="https://github.com/y4hya3" title="y4hya3"><img src="https://github.com/y4hya3.png?size=96" width="48" height="48" alt="y4hya3"></a>
+<a href="https://github.com/dhanunjay333i-cyber" title="dhanunjay333i-cyber"><img src="https://github.com/dhanunjay333i-cyber.png?size=96" width="48" height="48" alt="dhanunjay333i-cyber"></a>
+<a href="https://github.com/y198h" title="y198h"><img src="https://github.com/y198h.png?size=96" width="48" height="48" alt="y198h"></a>
+<a href="https://github.com/editmatrix" title="editmatrix"><img src="https://github.com/editmatrix.png?size=96" width="48" height="48" alt="editmatrix"></a>
+<a href="https://github.com/94Dan" title="94Dan"><img src="https://github.com/94Dan.png?size=96" width="48" height="48" alt="94Dan"></a>
+<a href="https://github.com/Evergreenpro" title="Evergreenpro"><img src="https://github.com/Evergreenpro.png?size=96" width="48" height="48" alt="Evergreenpro"></a>
+<a href="https://github.com/Batmancpu" title="Batmancpu"><img src="https://github.com/Batmancpu.png?size=96" width="48" height="48" alt="Batmancpu"></a>
+<a href="https://github.com/karthick4568" title="karthick4568"><img src="https://github.com/karthick4568.png?size=96" width="48" height="48" alt="karthick4568"></a>
+<a href="https://github.com/Hrcosmos" title="Hrcosmos"><img src="https://github.com/Hrcosmos.png?size=96" width="48" height="48" alt="Hrcosmos"></a>
+<a href="https://github.com/abdulsamiamiri11-lang" title="abdulsamiamiri11-lang"><img src="https://github.com/abdulsamiamiri11-lang.png?size=96" width="48" height="48" alt="abdulsamiamiri11-lang"></a>
+<a href="https://github.com/m0in01" title="m0in01"><img src="https://github.com/m0in01.png?size=96" width="48" height="48" alt="m0in01"></a>
+<a href="https://github.com/mygtvact" title="mygtvact"><img src="https://github.com/mygtvact.png?size=96" width="48" height="48" alt="mygtvact"></a>
+<a href="https://github.com/ra-rear" title="ra-rear"><img src="https://github.com/ra-rear.png?size=96" width="48" height="48" alt="ra-rear"></a>
+<a href="https://github.com/harshXigll" title="harshXigll"><img src="https://github.com/harshXigll.png?size=96" width="48" height="48" alt="harshXigll"></a>
+<a href="https://github.com/AshUchiha3" title="AshUchiha3"><img src="https://github.com/AshUchiha3.png?size=96" width="48" height="48" alt="AshUchiha3"></a>
+<a href="https://github.com/abanbinarshadmail-dotcom" title="abanbinarshadmail-dotcom"><img src="https://github.com/abanbinarshadmail-dotcom.png?size=96" width="48" height="48" alt="abanbinarshadmail-dotcom"></a>
+<a href="https://github.com/jokychan797-stack" title="jokychan797-stack"><img src="https://github.com/jokychan797-stack.png?size=96" width="48" height="48" alt="jokychan797-stack"></a>
+<a href="https://github.com/Capricornus007" title="Capricornus007"><img src="https://github.com/Capricornus007.png?size=96" width="48" height="48" alt="Capricornus007"></a>
+<a href="https://github.com/Reird" title="Reird"><img src="https://github.com/Reird.png?size=96" width="48" height="48" alt="Reird"></a>
+<a href="https://github.com/MAKAKAIglitch" title="MAKAKAIglitch"><img src="https://github.com/MAKAKAIglitch.png?size=96" width="48" height="48" alt="MAKAKAIglitch"></a>
+<a href="https://github.com/sakuraDev31" title="sakuraDev31"><img src="https://github.com/sakuraDev31.png?size=96" width="48" height="48" alt="sakuraDev31"></a>
+<a href="https://github.com/SpadezOfSpadez" title="SpadezOfSpadez"><img src="https://github.com/SpadezOfSpadez.png?size=96" width="48" height="48" alt="SpadezOfSpadez"></a>
+<a href="https://github.com/Golukumar00" title="Golukumar00"><img src="https://github.com/Golukumar00.png?size=96" width="48" height="48" alt="Golukumar00"></a>
+<a href="https://github.com/froost4" title="froost4"><img src="https://github.com/froost4.png?size=96" width="48" height="48" alt="froost4"></a>
+<a href="https://github.com/kazierski" title="kazierski"><img src="https://github.com/kazierski.png?size=96" width="48" height="48" alt="kazierski"></a>
+<a href="https://github.com/Hammoudi99" title="Hammoudi99"><img src="https://github.com/Hammoudi99.png?size=96" width="48" height="48" alt="Hammoudi99"></a>
+<a href="https://github.com/kadheerk49" title="kadheerk49"><img src="https://github.com/kadheerk49.png?size=96" width="48" height="48" alt="kadheerk49"></a>
+<a href="https://github.com/GeorgAR" title="GeorgAR"><img src="https://github.com/GeorgAR.png?size=96" width="48" height="48" alt="GeorgAR"></a>
+<a href="https://github.com/akshaymaurya26" title="akshaymaurya26"><img src="https://github.com/akshaymaurya26.png?size=96" width="48" height="48" alt="akshaymaurya26"></a>
+<a href="https://github.com/muksidulrahman077-creator" title="muksidulrahman077-creator"><img src="https://github.com/muksidulrahman077-creator.png?size=96" width="48" height="48" alt="muksidulrahman077-creator"></a>
+<a href="https://github.com/upt8543-eng" title="upt8543-eng"><img src="https://github.com/upt8543-eng.png?size=96" width="48" height="48" alt="upt8543-eng"></a>
+<a href="https://github.com/debugging03" title="debugging03"><img src="https://github.com/debugging03.png?size=96" width="48" height="48" alt="debugging03"></a>
+<a href="https://github.com/DarkGGM" title="DarkGGM"><img src="https://github.com/DarkGGM.png?size=96" width="48" height="48" alt="DarkGGM"></a>
+<a href="https://github.com/Abinpj1" title="Abinpj1"><img src="https://github.com/Abinpj1.png?size=96" width="48" height="48" alt="Abinpj1"></a>
+<a href="https://github.com/Subbarao6338" title="Subbarao6338"><img src="https://github.com/Subbarao6338.png?size=96" width="48" height="48" alt="Subbarao6338"></a>
+<a href="https://github.com/sauravdahalbro-ui" title="sauravdahalbro-ui"><img src="https://github.com/sauravdahalbro-ui.png?size=96" width="48" height="48" alt="sauravdahalbro-ui"></a>
+</p>
+
+## License
+
+MIT, see [LICENSE](LICENSE). The original NewTube and SmartTube copyright notices are kept. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

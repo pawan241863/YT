@@ -1,0 +1,17 @@
+MeeTube project branding customization
+
+Changes made:
+- Default app display name changed to YouTube.
+- Default home top-bar brand mark changed to the red YouTube play-button symbol.
+- Default launcher icon foreground changed to the red YouTube play-button symbol.
+- Existing navigation, playback, account, settings, and other app functionality were not intentionally changed.
+- Existing alternate launcher icon choices remain available in Settings; the default icon is YouTube.
+
+Build in Android Studio:
+1. Open this project folder (the folder containing settings.gradle).
+2. Allow Gradle sync to finish.
+3. Select the stmobileDebug build variant.
+4. Build > Build Bundle(s) / APK(s) > Build APK(s).
+
+Build verification note:
+The project could not be compiled in this environment because Gradle 9.6.1 was not cached and network access to services.gradle.org was unavailable. Build it in Android Studio on Windows after Gradle sync.
